@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-gray-800 text-white p-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold "> Mariem Ben Nasser</h1>
+            <nav>
+                <ul class="flex espace-x-4 gap-6">
+                    <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+                    <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+                    <li><a href="#conact" class="hover:text-yellow-400">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="bg-cover bg-center h-screen" style="background-image: url(IMG_1667.jpg);">
+        <div class="h-full flex-col justify-center text white text-center">
+            <h2 class="text-4xl md: text-6xl font-bold mb-5">Hi,I'm Mariem  Bennasser</h2>
+            <p class="text-lg md: text-2xl">I study web developer .</p>
+        </div>
+    </section>
+    <section id="skills" class="bg-gray-100 py-10">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">My skills</h3>
+            <div class=" grid grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="p-4 bg-white shadow-md rounded-lg">HTML</div>
+            <div class="p-4 bg-white shadow-md rounded-lg">CSS</div>
+            <div class="p-4 bg-white shadow-md rounded-lg">JavaScript</div>
+            </div>
+        </div>
+    </section>
+      <!-- Projects Section -->
+      <section id="projects" class="py-10 ">
+        <div class="container mx-auto">
+          <h3 class="text-3xl font-bold text-center" >My Projects</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Project 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+              <img src="p1.jpg" alt="Project 1" class="w-full h-48 object-cover">
+              <div class="p-2">
+                <h4 class="text-xl font-semibold mb-2">Project 1</h4>
+                <p class="text-gray-600">Description of the project goes here.</p>
+              </div>
+            </div>
+            <!-- Project 2-->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="p2.jpg" alt="Project 2" class="w-full h-48 object-cover ">
+                <div class="p-2">
+                  <h4 class="text-xl font-semibold mb-2 grid-cols-2">Project 2</h4>
+                  <p class="text-gray-600">Description of the project goes here.</p>
+          </div>
+        </div>
+      </section>
+
+    <section id="contact" class="bg-gray-100 py-10">
+        <div class="container mx-auto text-center">
+          <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+          <form class="max-w-lg mx-auto">
+            <div class="mb-4">
+              <input type="text" placeholder="Name" class="w-full p-3 border rounded-lg">
+            </div>
+            <div class="mb-4">
+              <input type="email" placeholder="Email" class="w-full p-3 border rounded-lg">
+            </div>
+            <div class="mb-4">
+              <textarea placeholder="Message" class="w-full p-3 border rounded-lg"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white py-2 px-6 rounded-lg">Send</button>
+          </form>
+        </div>
+      </section>
+      <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+          <p>&copy; 2024 Mariem</p>
+          <div class="space-x-4">
+            <a href="#" class="hover:text-yellow-400">Twitter</a>
+            <a href="#" class="hover:text-yellow-400">LinkedIn</a>
+            <a href="#" class="hover:text-yellow-400">GitHub</a>
+          </div>
+        </div>
+      </footer>
+    
+
+
+
+</body>
+</html>
